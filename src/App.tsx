@@ -12,7 +12,7 @@ function App() {
   const [advice, setAdvice] = useState('');
 
   return (
-    <div className="github dark-theme">
+    <div>
       <p>{advice}</p>
       <button onClick={async () => setAdvice(await getAdvice())}>
         Click Me!
