@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="center-flex">
       <p>{advice}</p>
+      <br />
       <button onClick={async () => setAdvice(await getAdvice())}>
         Click Me!
       </button>
