@@ -12,7 +12,7 @@ function App() {
   const [advice, setAdvice] = useState('');
 
   return (
-    <div className="center-flex">
+    <div className="center-display">
       <p>{advice}</p>
       <br />
       <button onClick={async () => setAdvice(await getAdvice())}>
